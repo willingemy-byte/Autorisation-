@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - aiv-build-public
+  pull_request:
+    branches:
+      - main
     paths:
       - "aiv/**"
       - ".github/workflows/aiv-build-public.yml"
